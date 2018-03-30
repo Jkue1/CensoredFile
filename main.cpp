@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  ifstream in("example2.txt");
+  ifstream in("example.txt");
   char first = ' ', last = ' ', current;
   
   vector<char> list;
