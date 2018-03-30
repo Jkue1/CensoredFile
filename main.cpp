@@ -10,14 +10,14 @@ int main()
   char first = ' ', last = ' ', current;
   
   vector<char> list;
-  while (!in.eof())
+  while ( !in.eof() )
   {
     in>>current;
     if ((current >= 'A' && current <= 'z') || (current >= 'a' && current <= 'z'))
     {
         list.push_back(current);
     }
-    for (int i=0; i<list.size(); i++);
+    for ( int i=0; i<list.size(); i++);
     {
         first=list.at(0);
         last=list.at(list.size()-1);
