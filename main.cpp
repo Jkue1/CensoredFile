@@ -1,4 +1,4 @@
-//Author:
+//Author: Joshua Kue
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -13,7 +13,7 @@ int main()
   while (!in.eof())
   {
     in>>current;
-    if ((current>='A' && current<='z') || (current >='a' && current <= 'z'))
+    if ((current >= 'A' && current <= 'z') || (current >= 'a' && current <= 'z'))
     {
         list.push_back(current);
     }
